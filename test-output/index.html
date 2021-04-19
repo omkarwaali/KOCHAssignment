@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Default_suite" class="navigator-link">
+              <span class="suite-name border-passed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
+                    <span>C:\Users\GURUNATH\AppData\Local\Temp\testng-eclipse--236235868\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Default_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Default_suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Default_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Default_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Default_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Default_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">1 method,   1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="test.automation.test.com.AirlineSearchDetails" class="method navigator-link" hash-for-method="airlineSearchDetails">airlineSearchDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.automation.test.com.AirlineSearchDetails</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="airlineSearchDetails">
+                  </a> <!-- airlineSearchDetails -->
+                  <span class="method-name">airlineSearchDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\GURUNATH\AppData\Local\Temp\testng-eclipse--236235868\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;test.automation.test.com.AirlineSearchDetails&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(1);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'airlineSearchDetails')
+data.setCell(0, 2, 'test.automation.test.com.AirlineSearchDetails')
+data.setCell(0, 3, 147903);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">airlineSearchDetails</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">==================================texttt</span>
+                <span class="reporter-method-output">==================================174</span>
+                <span class="reporter-method-output">==================================2685</span>
+                <span class="reporter-method-output">==================================00:1002:20
+AirAsia India  I5330</span>
+                <span class="reporter-method-output">==================================2693</span>
+                <span class="reporter-method-output">==================================08:3510:50
+AirAsia India  I5315</span>
+                <span class="reporter-method-output">==================================2693</span>
+                <span class="reporter-method-output">==================================05:0018:45
+AirAsia India  I5631, I5549</span>
+                <span class="reporter-method-output">==================================2693</span>
+                <span class="reporter-method-output">==================================13:0002:55
++1
+AirAsia India  I5363, I5722</span>
+                <span class="reporter-method-output">==================================2744</span>
+                <span class="reporter-method-output">==================================12:1502:55
++1
+AirAsia India  I5942, I5722</span>
+                <span class="reporter-method-output">==================================2744</span>
+                <span class="reporter-method-output">==================================11:1017:50
+Go Air  G8351, G8150</span>
+                <span class="reporter-method-output">==================================2744</span>
+                <span class="reporter-method-output">==================================11:1020:45
+Go Air  G8351, G8132</span>
+                <span class="reporter-method-output">==================================2752</span>
+                <span class="reporter-method-output">==================================11:1022:15
+Go Air  G8351, G8144</span>
+                <span class="reporter-method-output">==================================2988</span>
+                <span class="reporter-method-output">==================================12:5019:45
+Go Air  G8335, G8175</span>
+                <span class="reporter-method-output">==================================2988</span>
+                <span class="reporter-method-output">==================================07:0013:55
+AirAsia India  I5941, I5824</span>
+                <span class="reporter-method-output">==================================2988</span>
+                <span class="reporter-method-output">==================================05:0013:55
+AirAsia India  I5631, I5745</span>
+                <span class="reporter-method-output">==================================2988</span>
+                <span class="reporter-method-output">==================================13:0022:20
+AirAsia India  I5363, I5996</span>
+                <span class="reporter-method-output">==================================2988</span>
+                <span class="reporter-method-output">==================================12:1522:20
+AirAsia India  I5942, I5996</span>
+                <span class="reporter-method-output">==================================2989</span>
+                <span class="reporter-method-output">==================================23:3509:55
++1
+AirAsia India  I5317, I5552</span>
+                <span class="reporter-method-output">==================================3039</span>
+                <span class="reporter-method-output">==================================15:2002:05
++1
+Go Air  G8382, G8195</span>
+                <span class="reporter-method-output">==================================3046</span>
+                <span class="reporter-method-output">==================================11:1016:20
+Go Air  G8351, G8229</span>
+                <span class="reporter-method-output">==================================3046</span>
+                <span class="reporter-method-output">==================================19:4521:55
+Vistara  UK940</span>
+                <span class="reporter-method-output">==================================3046</span>
+                <span class="reporter-method-output">==================================17:3019:40
+Vistara  UK910</span>
+                <span class="reporter-method-output">==================================3046</span>
+                <span class="reporter-method-output">==================================10:2512:40
+Vistara  UK994</span>
+                <span class="reporter-method-output">==================================3046</span>
+                <span class="reporter-method-output">==================================15:4518:05
+Vistara  UK902</span>
+                <span class="reporter-method-output">==================================3145</span>
+                <span class="reporter-method-output">==================================10:5519:45
+Go Air  G8306, G8175</span>
+                <span class="reporter-method-output">==================================3145</span>
+                <span class="reporter-method-output">==================================10:5016:10
+Go Air  G8287, G8196</span>
+                <span class="reporter-method-output">==================================3145</span>
+                <span class="reporter-method-output">==================================10:5019:15
+Go Air  G8287, G8189</span>
+                <span class="reporter-method-output">==================================3145</span>
+                <span class="reporter-method-output">==================================10:5019:50
+Go Air  G8287, G8181</span>
+                <span class="reporter-method-output">==================================3145</span>
+                <span class="reporter-method-output">==================================10:5020:55
+Go Air  G8287, G8149</span>
+                <span class="reporter-method-output">==================================3151</span>
+                <span class="reporter-method-output">==================================10:5021:20
+Go Air  G8287, G83018</span>
+                <span class="reporter-method-output">==================================3243</span>
+                <span class="reporter-method-output">==================================10:3022:00
+Go Air  G8349, G8183</span>
+                <span class="reporter-method-output">==================================3243</span>
+                <span class="reporter-method-output">==================================15:2520:40
+IndiGo  6E5568, 6E648</span>
+                <span class="reporter-method-output">==================================3284</span>
+                <span class="reporter-method-output">==================================17:4001:10
++1
+IndiGo  6E5623, 6E2023</span>
+                <span class="reporter-method-output">==================================3284</span>
+                <span class="reporter-method-output">==================================15:2020:05
+Go Air  G8382, G8285</span>
+                <span class="reporter-method-output">==================================3284</span>
+                <span class="reporter-method-output">==================================22:0003:05
++1
+Go Air  G8384, G83020</span>
+                <span class="reporter-method-output">==================================3353</span>
+                <span class="reporter-method-output">==================================11:3020:05
+Go Air  G8331, G8285</span>
+                <span class="reporter-method-output">==================================3394</span>
+                <span class="reporter-method-output">==================================22:5007:45
++1
+SpiceJet  SG637, SG8194</span>
+                <span class="reporter-method-output">==================================3394</span>
+                <span class="reporter-method-output">==================================07:3511:15
+Go Air  G8365, G8720</span>
+                <span class="reporter-method-output">==================================3494</span>
+                <span class="reporter-method-output">==================================19:2023:55
+Go Air  G8364, G8714</span>
+                <span class="reporter-method-output">==================================3494</span>
+                <span class="reporter-method-output">==================================13:3018:15
+IndiGo  6E5388, 6E2392</span>
+                <span class="reporter-method-output">==================================3494</span>
+                <span class="reporter-method-output">==================================19:1500:30
++1
+IndiGo  6E6818, 6E2173</span>
+                <span class="reporter-method-output">==================================3494</span>
+                <span class="reporter-method-output">==================================17:5523:10
+IndiGo  6E448, 6E2385</span>
+                <span class="reporter-method-output">==================================3494</span>
+                <span class="reporter-method-output">==================================16:1021:30
+IndiGo  6E267, 6E791</span>
+                <span class="reporter-method-output">==================================3494</span>
+                <span class="reporter-method-output">==================================17:5500:30
++1
+IndiGo  6E448, 6E2173</span>
+                <span class="reporter-method-output">==================================3494</span>
+                <span class="reporter-method-output">==================================16:2523:10
+IndiGo  6E5375, 6E2385</span>
+                <span class="reporter-method-output">==================================3494</span>
+                <span class="reporter-method-output">==================================10:2517:15
+IndiGo  6E5307, 6E6409</span>
+                <span class="reporter-method-output">==================================3494</span>
+                <span class="reporter-method-output">==================================16:1023:30
+IndiGo  6E267, 6E2383</span>
+                <span class="reporter-method-output">==================================3494</span>
+                <span class="reporter-method-output">==================================07:3515:20
+IndiGo  6E6555, 6E482</span>
+                <span class="reporter-method-output">==================================3494</span>
+                <span class="reporter-method-output">==================================07:2015:15
+IndiGo  6E5731, 6E6468</span>
+                <span class="reporter-method-output">==================================3712</span>
+                <span class="reporter-method-output">==================================16:2500:30
++1
+IndiGo  6E5375, 6E2173</span>
+                <span class="reporter-method-output">==================================3712</span>
+                <span class="reporter-method-output">==================================13:5015:55
+Go Air  G8391</span>
+                <span class="reporter-method-output">==================================3712</span>
+                <span class="reporter-method-output">==================================08:0510:10
+Go Air  G8327</span>
+                <span class="reporter-method-output">==================================3712</span>
+                <span class="reporter-method-output">==================================06:0008:05
+Go Air  G8329</span>
+                <span class="reporter-method-output">==================================3712</span>
+                <span class="reporter-method-output">==================================18:0020:05
+Go Air  G8339</span>
+                <span class="reporter-method-output">==================================3712</span>
+                <span class="reporter-method-output">==================================06:0508:15
+IndiGo  6E5047</span>
+                <span class="reporter-method-output">==================================3712</span>
+                <span class="reporter-method-output">==================================18:4520:55
+IndiGo  6E2412</span>
+                <span class="reporter-method-output">==================================3712</span>
+                <span class="reporter-method-output">==================================17:0019:10
+IndiGo  6E5535</span>
+                <span class="reporter-method-output">==================================3712</span>
+                <span class="reporter-method-output">==================================09:1511:25
+IndiGo  6E6126</span>
+                <span class="reporter-method-output">==================================3712</span>
+                <span class="reporter-method-output">==================================07:0009:10
+Air India  AI864</span>
+                <span class="reporter-method-output">==================================3712</span>
+                <span class="reporter-method-output">==================================13:3515:50
+IndiGo  6E5519</span>
+                <span class="reporter-method-output">==================================3712</span>
+                <span class="reporter-method-output">==================================07:4510:00
+IndiGo  6E2417</span>
+                <span class="reporter-method-output">==================================3712</span>
+                <span class="reporter-method-output">==================================10:1512:30
+SpiceJet  SG8702</span>
+                <span class="reporter-method-output">==================================3712</span>
+                <span class="reporter-method-output">==================================07:2009:35
+SpiceJet  SG8152</span>
+                <span class="reporter-method-output">==================================3712</span>
+                <span class="reporter-method-output">==================================19:0021:15
+Air India  AI888</span>
+                <span class="reporter-method-output">==================================3712</span>
+                <span class="reporter-method-output">==================================10:0012:15
+Air India  AI809</span>
+                <span class="reporter-method-output">==================================3712</span>
+                <span class="reporter-method-output">==================================11:5014:05
+IndiGo  6E2352</span>
+                <span class="reporter-method-output">==================================3712</span>
+                <span class="reporter-method-output">==================================21:3023:45
+IndiGo  6E248</span>
+                <span class="reporter-method-output">==================================3712</span>
+                <span class="reporter-method-output">==================================19:3521:55
+SpiceJet  SG8158</span>
+                <span class="reporter-method-output">==================================3712</span>
+                <span class="reporter-method-output">==================================18:0020:30
+Air India  AI660</span>
+                <span class="reporter-method-output">==================================3712</span>
+                <span class="reporter-method-output">==================================16:2020:25
+SpiceJet  SG2642</span>
+                <span class="reporter-method-output">==================================3713</span>
+                <span class="reporter-method-output">==================================07:0511:10
+Air India  AI635</span>
+                <span class="reporter-method-output">==================================3744</span>
+                <span class="reporter-method-output">==================================18:3520:45
+AirAsia India  I5829</span>
+                <span class="reporter-method-output">==================================3744</span>
+                <span class="reporter-method-output">==================================14:1019:05
+IndiGo  6E953, 6E226</span>
+                <span class="reporter-method-output">==================================3744</span>
+                <span class="reporter-method-output">==================================11:1016:10
+IndiGo  6E918, 6E2438</span>
+                <span class="reporter-method-output">==================================3744</span>
+                <span class="reporter-method-output">==================================10:0015:10
+IndiGo  6E5326, 6E455</span>
+                <span class="reporter-method-output">==================================3995</span>
+                <span class="reporter-method-output">==================================11:5019:40
+IndiGo  6E749, 6E2299</span>
+                <span class="reporter-method-output">==================================3995</span>
+                <span class="reporter-method-output">==================================16:4500:45
++1
+IndiGo  6E793, 6E5178</span>
+                <span class="reporter-method-output">==================================3275</span>
+                <span class="reporter-method-output">==================================11:3019:30
+IndiGo  6E832, 6E2086</span>
+                <span class="reporter-method-output">==================================3275</span>
+                <span class="reporter-method-output">==================================05:4507:55
+AirAsia India  I5314</span>
+                <span class="reporter-method-output">==================================3275</span>
+                <span class="reporter-method-output">==================================06:1510:15
+IndiGo  6E2098, 6E5343</span>
+                <span class="reporter-method-output">==================================3275</span>
+                <span class="reporter-method-output">==================================12:1016:20
+IndiGo  6E161, 6E5303</span>
+                <span class="reporter-method-output">==================================3275</span>
+                <span class="reporter-method-output">==================================13:5518:10
+IndiGo  6E6245, 6E628</span>
+                <span class="reporter-method-output">==================================3275</span>
+                <span class="reporter-method-output">==================================20:1000:30
++1
+IndiGo  6E5006, 6E6813</span>
+                <span class="reporter-method-output">==================================3275</span>
+                <span class="reporter-method-output">==================================10:5515:20
+IndiGo  6E636, 6E264</span>
+                <span class="reporter-method-output">==================================3275</span>
+                <span class="reporter-method-output">==================================14:2519:10
+IndiGo  6E2966, 6E933</span>
+                <span class="reporter-method-output">==================================3275</span>
+                <span class="reporter-method-output">==================================17:1522:15
+IndiGo  6E2967, 6E5321</span>
+                <span class="reporter-method-output">==================================3275</span>
+                <span class="reporter-method-output">==================================19:1500:20
++1
+IndiGo  6E723, 6E884</span>
+                <span class="reporter-method-output">==================================3275</span>
+                <span class="reporter-method-output">==================================12:1017:45
+IndiGo  6E2044, 6E5306</span>
+                <span class="reporter-method-output">==================================3275</span>
+                <span class="reporter-method-output">==================================13:5019:30
+IndiGo  6E2733, 6E6811</span>
+                <span class="reporter-method-output">==================================3275</span>
+                <span class="reporter-method-output">==================================16:3022:10
+IndiGo  6E2546, 6E891</span>
+                <span class="reporter-method-output">==================================3275</span>
+                <span class="reporter-method-output">==================================18:4500:30
++1
+IndiGo  6E2136, 6E6813</span>
+                <span class="reporter-method-output">==================================3275</span>
+                <span class="reporter-method-output">==================================15:5021:40
+IndiGo  6E937, 6E6602</span>
+                <span class="reporter-method-output">==================================3275</span>
+                <span class="reporter-method-output">==================================11:0016:50
+IndiGo  6E322, 6E448</span>
+                <span class="reporter-method-output">==================================3275</span>
+                <span class="reporter-method-output">==================================07:2013:10
+IndiGo  6E2373, 6E167</span>
+                <span class="reporter-method-output">==================================3275</span>
+                <span class="reporter-method-output">==================================10:0015:55
+IndiGo  6E2334, 6E5377</span>
+                <span class="reporter-method-output">==================================3275</span>
+                <span class="reporter-method-output">==================================09:4515:40
+IndiGo  6E816, 6E903</span>
+                <span class="reporter-method-output">==================================3275</span>
+                <span class="reporter-method-output">==================================06:2012:20
+IndiGo  6E774, 6E297</span>
+                <span class="reporter-method-output">==================================3275</span>
+                <span class="reporter-method-output">==================================11:3517:35
+IndiGo  6E2187, 6E5325</span>
+                <span class="reporter-method-output">==================================3275</span>
+                <span class="reporter-method-output">==================================19:1501:20
++1
+IndiGo  6E723, 6E235</span>
+                <span class="reporter-method-output">==================================3275</span>
+                <span class="reporter-method-output">==================================13:3519:40
+IndiGo  6E6205, 6E5312</span>
+                <span class="reporter-method-output">==================================3275</span>
+                <span class="reporter-method-output">==================================06:3012:50
+IndiGo  6E2042, 6E5399</span>
+                <span class="reporter-method-output">==================================3275</span>
+                <span class="reporter-method-output">==================================14:1020:35
+IndiGo  6E2201, 6E5358</span>
+                <span class="reporter-method-output">==================================3279</span>
+                <span class="reporter-method-output">==================================04:3511:00
+IndiGo  6E517, 6E5622</span>
+                <span class="reporter-method-output">==================================3279</span>
+                <span class="reporter-method-output">==================================13:1519:50
+IndiGo  6E951, 6E468</span>
+                <span class="reporter-method-output">==================================3284</span>
+                <span class="reporter-method-output">==================================20:5006:20
++1
+AirAsia India  I5721, I5941</span>
+                <span class="reporter-method-output">==================================3284</span>
+                <span class="reporter-method-output">==================================16:0506:20
++1
+AirAsia India  I5784, I5941</span>
+                <span class="reporter-method-output">==================================3334</span>
+                <span class="reporter-method-output">==================================16:5521:10
+Go Air  G8188, G8396</span>
+                <span class="reporter-method-output">==================================3334</span>
+                <span class="reporter-method-output">==================================12:0017:50
+Go Air  G8268, G8337</span>
+                <span class="reporter-method-output">==================================3440</span>
+                <span class="reporter-method-output">==================================20:1006:35
++1
+SpiceJet  SG8193, SG636</span>
+                <span class="reporter-method-output">==================================3440</span>
+                <span class="reporter-method-output">==================================05:4506:35
++1
+SpiceJet  SG8913, SG636</span>
+                <span class="reporter-method-output">==================================3440</span>
+                <span class="reporter-method-output">==================================10:2015:30
+Go Air  G8404, G8350</span>
+                <span class="reporter-method-output">==================================3440</span>
+                <span class="reporter-method-output">==================================11:0016:45
+Go Air  G82511, G8352</span>
+                <span class="reporter-method-output">==================================3440</span>
+                <span class="reporter-method-output">==================================12:0018:40
+Go Air  G8194, G82606</span>
+                <span class="reporter-method-output">==================================3440</span>
+                <span class="reporter-method-output">==================================12:0018:40
+Go Air  G8137, G82606</span>
+                <span class="reporter-method-output">==================================3440</span>
+                <span class="reporter-method-output">==================================10:4018:00
+Go Air  G8286, G8320</span>
+                <span class="reporter-method-output">==================================3440</span>
+                <span class="reporter-method-output">==================================12:0019:30
+Go Air  G8137, G8372</span>
+                <span class="reporter-method-output">==================================3440</span>
+                <span class="reporter-method-output">==================================12:0019:30
+Go Air  G8194, G8372</span>
+                <span class="reporter-method-output">==================================3491</span>
+                <span class="reporter-method-output">==================================10:2018:00
+Go Air  G8404, G8320</span>
+                <span class="reporter-method-output">==================================3491</span>
+                <span class="reporter-method-output">==================================10:4018:40
+Go Air  G8286, G82606</span>
+                <span class="reporter-method-output">==================================3637</span>
+                <span class="reporter-method-output">==================================08:5014:20
+Go Air  G83011, G83002</span>
+                <span class="reporter-method-output">==================================3637</span>
+                <span class="reporter-method-output">==================================05:2011:15
+Go Air  G8190, G8386</span>
+                <span class="reporter-method-output">==================================3637</span>
+                <span class="reporter-method-output">==================================06:0008:00
+Vistara  UK975</span>
+                <span class="reporter-method-output">==================================3637</span>
+                <span class="reporter-method-output">==================================20:4022:50
+Vistara  UK953</span>
+                <span class="reporter-method-output">==================================3637</span>
+                <span class="reporter-method-output">==================================16:5519:05
+Vistara  UK941</span>
+                <span class="reporter-method-output">==================================3637</span>
+                <span class="reporter-method-output">==================================15:3017:40
+Vistara  UK933</span>
+                <span class="reporter-method-output">==================================3637</span>
+                <span class="reporter-method-output">==================================09:3011:40
+Vistara  UK927</span>
+                <span class="reporter-method-output">==================================3637</span>
+                <span class="reporter-method-output">==================================12:5015:00
+Vistara  UK993</span>
+                <span class="reporter-method-output">==================================3637</span>
+                <span class="reporter-method-output">==================================19:5022:00
+Vistara  UK985</span>
+                <span class="reporter-method-output">==================================3637</span>
+                <span class="reporter-method-output">==================================21:4023:50
+Vistara  UK981</span>
+                <span class="reporter-method-output">==================================3637</span>
+                <span class="reporter-method-output">==================================07:3009:45
+Vistara  UK943</span>
+                <span class="reporter-method-output">==================================3637</span>
+                <span class="reporter-method-output">==================================10:2012:35
+Vistara  UK995</span>
+                <span class="reporter-method-output">==================================3637</span>
+                <span class="reporter-method-output">==================================17:4520:05
+Vistara  UK955</span>
+                <span class="reporter-method-output">==================================3637</span>
+                <span class="reporter-method-output">==================================11:4014:00
+Vistara  UK945</span>
+                <span class="reporter-method-output">==================================3774</span>
+                <span class="reporter-method-output">==================================18:5521:15
+Vistara  UK977</span>
+                <span class="reporter-method-output">==================================3774</span>
+                <span class="reporter-method-output">==================================08:5011:10
+Vistara  UK963</span>
+                <span class="reporter-method-output">==================================3774</span>
+                <span class="reporter-method-output">==================================18:0018:20
++1
+Vistara  UK969, UK926</span>
+                <span class="reporter-method-output">==================================4428</span>
+                <span class="reporter-method-output">==================================08:4518:20
+Vistara  UK979, UK926</span>
+                <span class="reporter-method-output">==================================4428</span>
+                <span class="reporter-method-output">==================================06:3018:20
+Vistara  UK959, UK926</span>
+                <span class="reporter-method-output">==================================4428</span>
+                <span class="reporter-method-output">==================================20:5022:55
+Go Air  G8330</span>
+                <span class="reporter-method-output">==================================4428</span>
+                <span class="reporter-method-output">==================================08:0010:05
+Go Air  G8334</span>
+                <span class="reporter-method-output">==================================4428</span>
+                <span class="reporter-method-output">==================================06:5008:55
+Go Air  G8530</span>
+                <span class="reporter-method-output">==================================4428</span>
+                <span class="reporter-method-output">==================================18:2020:25
+Go Air  G8323</span>
+                <span class="reporter-method-output">==================================4428</span>
+                <span class="reporter-method-output">==================================08:5011:00
+SpiceJet  SG8723</span>
+                <span class="reporter-method-output">==================================4428</span>
+                <span class="reporter-method-output">==================================07:2009:35
+SpiceJet  SG8701</span>
+                <span class="reporter-method-output">==================================4428</span>
+                <span class="reporter-method-output">==================================18:4521:05
+SpiceJet  SG8709</span>
+                <span class="reporter-method-output">==================================4429</span>
+                <span class="reporter-method-output">==================================19:4522:05
+SpiceJet  SG8169</span>
+                <span class="reporter-method-output">==================================4429</span>
+                <span class="reporter-method-output">==================================11:3015:50
+SpiceJet  SG2871</span>
+                <span class="reporter-method-output">==================================4429</span>
+                <span class="reporter-method-output">==================================02:3004:35
+IndiGo  6E171</span>
+                <span class="reporter-method-output">==================================4429</span>
+                <span class="reporter-method-output">==================================07:0009:05
+Air India  AI887</span>
+                <span class="reporter-method-output">==================================4429</span>
+                <span class="reporter-method-output">==================================07:2009:25
+IndiGo  6E5536</span>
+                <span class="reporter-method-output">==================================4429</span>
+                <span class="reporter-method-output">==================================15:4517:50
+IndiGo  6E5071</span>
+                <span class="reporter-method-output">==================================4429</span>
+                <span class="reporter-method-output">==================================12:0014:05
+IndiGo  6E6202</span>
+                <span class="reporter-method-output">==================================4429</span>
+                <span class="reporter-method-output">==================================06:5008:55
+IndiGo  6E993</span>
+                <span class="reporter-method-output">==================================4429</span>
+                <span class="reporter-method-output">==================================20:0022:10
+Air India  AI805</span>
+                <span class="reporter-method-output">==================================4429</span>
+                <span class="reporter-method-output">==================================08:0010:10
+Air India  AI665</span>
+                <span class="reporter-method-output">==================================4429</span>
+                <span class="reporter-method-output">==================================08:0510:15
+IndiGo  6E5012</span>
+                <span class="reporter-method-output">==================================4429</span>
+                <span class="reporter-method-output">==================================10:4012:50
+Air India  AI865</span>
+                <span class="reporter-method-output">==================================4429</span>
+                <span class="reporter-method-output">==================================16:4018:50
+IndiGo  6E5115</span>
+                <span class="reporter-method-output">==================================4429</span>
+                <span class="reporter-method-output">==================================21:5500:05
++1
+IndiGo  6E665</span>
+                <span class="reporter-method-output">==================================4429</span>
+                <span class="reporter-method-output">==================================19:4021:50
+IndiGo  6E5162</span>
+                <span class="reporter-method-output">==================================4429</span>
+                <span class="reporter-method-output">==================================09:3011:45
+IndiGo  6E2281</span>
+                <span class="reporter-method-output">==================================4429</span>
+                <span class="reporter-method-output">==================================08:4511:00
+IndiGo  6E6197</span>
+                <span class="reporter-method-output">==================================4429</span>
+                <span class="reporter-method-output">==================================17:4520:00
+IndiGo  6E6186</span>
+                <span class="reporter-method-output">==================================4429</span>
+                <span class="reporter-method-output">==================================04:5507:10
+IndiGo  6E5379</span>
+                <span class="reporter-method-output">==================================4429</span>
+                <span class="reporter-method-output">==================================19:0021:15
+Air India  AI624</span>
+                <span class="reporter-method-output">==================================4429</span>
+                <span class="reporter-method-output">==================================10:3012:45
+IndiGo  6E5518</span>
+                <span class="reporter-method-output">==================================4429</span>
+                <span class="reporter-method-output">==================================09:0011:15
+Air India  AI678</span>
+                <span class="reporter-method-output">==================================4430</span>
+                <span class="reporter-method-output">==================================20:3023:00
+IndiGo  6E5625</span>
+                <span class="reporter-method-output">==================================4430</span>
+                <span class="reporter-method-output">==================================17:5021:35
+Air India  AI441</span>
+                <span class="reporter-method-output">==================================5330</span>
+                <span class="reporter-method-output">==================================15:4017:50
+AirAsia India  I5559</span>
+                <span class="reporter-method-output">==================================5330</span>
+                <span class="reporter-method-output">==================================20:5523:15
+AirAsia India  I5482</span>
+                <span class="reporter-method-output">==================================5334</span>
+                <span class="reporter-method-output">==================================16:4521:05
+Go Air  G8717, G8537</span>
+                <span class="reporter-method-output">==================================5334</span>
+                <span class="reporter-method-output">==================================20:0501:45
++1
+Go Air  G8713, G8413</span>
+                <span class="reporter-method-output">==================================5334</span>
+                <span class="reporter-method-output">==================================14:3020:20
+AirAsia India  I5828, I5630</span>
+                <span class="reporter-method-output">==================================5334</span>
+                <span class="reporter-method-output">==================================20:5004:20
++1
+AirAsia India  I5721, I5334</span>
+                <span class="reporter-method-output">==================================5334</span>
+                <span class="reporter-method-output">==================================08:3017:55
+AirAsia India  I5926, I5304</span>
+                <span class="reporter-method-output">==================================5334</span>
+                <span class="reporter-method-output">==================================08:0017:55
+AirAsia India  I5740, I5304</span>
+                <span class="reporter-method-output">==================================5334</span>
+                <span class="reporter-method-output">==================================09:2520:20
+AirAsia India  I5744, I5630</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.automation.test.com.AirlineSearchDetails</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">loginToApp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">airlineSearchDetails</span>
+                <span class="method-start">6400 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
